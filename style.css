@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' sans-serif;
+}
+
+#navebar {
+    display: flex;
+    background-color: #C9F2F2;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin: 8px 0 8px 0;
+}
+
+
+#logoImg {
+    width: 60px;
+    height: 60px;
+}
+
+.textDocesdaIsis {
+    font-weight: 500;
+    font-size: 20px;
+    color: #EE7A23;
+    margin: 13px;
+}
+
+.paginas a {
+    color: #F266CD;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 13px;
+    transition: 0.8s;
+}
+
+.paginas a:hover {
+    color: #EE7A23;
+    font-weight: 600;
+}
+
+#redesSociais {
+    display: flex;
+    align-items: center;
+}
+
+#redesSociais img {
+    margin: 13px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:  url("img/background.png");
+}
+
+#chamadaHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feitoCarinho {
+    font-size: 49px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.paraVoce {
+    font-size: 64px;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-weight: 800;
+    color: #F266CD;
+    margin-top: -30px;
+}
+
+.orcamento {
+    background-color: #F266CD;
+    color: white;
+    font-size: 20px;
+    padding: 19px 35px 19px 35px;
+    border-radius: 12px;
+    border-style: none;
+    box-shadow:  4px 6px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#quote {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote img {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+.textClient {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.nameClient {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+#produts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#produts h1 {
+    font-size: 32px;
+    font-weight: 800px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.produtsAll {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#docesTrad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    background-color: #C9F2F2;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow:  4px 6px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+
+#docesPers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    background-color: #C9F2F2;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow:  4px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#docesPresent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    background-color: #C9F2F2;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow:  4px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#docesExp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    background-color: #C9F2F2;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow:  4px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
